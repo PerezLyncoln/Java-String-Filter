@@ -13,7 +13,7 @@ public class CSVReader {
                 
                 for (String word : values) {
                     word = word.trim();
-                    if (word.length() == 5) {
+                    if (word.length() >= 5) {
                         System.out.println(word);
                     }
                 }
